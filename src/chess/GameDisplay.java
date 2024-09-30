@@ -146,10 +146,15 @@ public class GameDisplay extends JPanel {
         for (Piece piece : game.getLastBoardAsList()) {
             p = coordToPoint(piece.getLocation());
             try {
-                icon = ImageIO.read(new File("files/images/" + piece.icon() + ".png"));
+                icon = ImageIO.read(new File("src/images/" + piece.icon() + ".png"));
                 g.drawImage(icon, p.x, p.y, boardSize / 8, boardSize / 8, null);
             } catch (IOException e) {
-                System.out.println(e);
+                try {
+                    icon = ImageIO.read(new File("images/" + piece.icon() + ".png"));
+                    g.drawImage(icon, p.x, p.y, boardSize / 8, boardSize / 8, null);
+                } catch (IOException e1) {
+                    System.out.println("bruh");
+                }
             }
         }
     }
