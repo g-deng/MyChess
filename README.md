@@ -2,6 +2,7 @@
 
 ## Description
 MyChess is a simple fully-functional chess game written in Java using the Swing GUI toolkit. This project supports basic gameplay features, move validation, and a user-friendly GUI.
+It was originally made for a homework assignment that required the usage of Swing.
 
 ## Features
 - Two-player mode
