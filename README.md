@@ -7,8 +7,9 @@ MyChess is a simple fully-functional chess game written in Java using the Swing 
 - Two-player mode
 - Move validation based on chess rules
 - On the way:
-    - Forced en passant mode :D 
     - Auto-notation
+    - .pgn notation output
+    - Custom position set-up
     - Undo
 
 ## Usage
