@@ -21,11 +21,11 @@ It was originally made for a homework assignment that required the usage of Swin
 ## Usage
 
 For Windows:
-1. Download `MyChess.exe` from the `bin` folder.
+1. Download `MyChess.exe`.
 2. Run the executable directly.
 
 For Java:
-1. Download `MyChess.jar` from the `bin` folder.
+1. Download `MyChess.jar`.
 2. Run the following command:
 ```bash
    java -jar MyChess.jar
