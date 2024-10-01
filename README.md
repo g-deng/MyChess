@@ -10,7 +10,7 @@ It was originally made for a homework assignment that required the usage of Swin
 - Two-player mode
 - Show legal moves
 - Move validation based on chess rules
-- On the way:
+- Features on the way:
     - Auto-notation
     - .pgn notation output
     - Custom position set-up
