@@ -25,7 +25,7 @@ For Windows:
 1. Download `MyChess.exe`.
 2. Run the executable directly.
 
-For Java:
+For others:
 1. Download `MyChess.jar`.
 2. Run the following command:
 ```bash
